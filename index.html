@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>BROWSER IP</title>
+</head>
+<body>
+    <main class="container">
+        <form id="form">
+            <label>
+                IP del Usuario
+                <input id="ip" type="text" paceholder="Introduce aquí la ip" required>
+                <small>Por ejemplo: 8.8.4.4</small>
+            </label>
+            <button type="submit" id="submit">
+                Buscar información de esta IP
+            </button>
+        </form>
+        <div>
+            <pre id="results" style="padding: 2rem;">
+
+            </pre>
+        </div>
+    </main>
+    <script src="./script.js"></script>    
+</body>
+</html>
